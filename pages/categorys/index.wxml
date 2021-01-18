@@ -1,0 +1,97 @@
+<view class='page_row' bindtap="suo">
+    <view class="search">
+      <view class="df search_arr">
+        <icon class="searchcion" size='16' type='search'></icon>
+        <input class="sousuo" disabled placeholder="搜索" bindtap='search'/>
+      </view>
+    </view>
+	</view>
+	
+	<!--导航条-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+ 
+<!--首页-->
+<view hidden="{{currentTab!==0}}">
+
+	<view class='list'>
+  <block wx:for='{{dataList1}}' wx:key='list' wx:for-item="item">
+  <view class="list_item" >
+      <navigator url='{{item.id}}'>
+      <view class='img'>
+        <image src="{{imghref}}{{item.goods_img}}"  mode="scaleToFill"/>
+      </view>
+      <view class='info'>
+        <view class='title'>{{item.goods_title}}</view>
+        <view class='price'>{{item.goods_price}}</view>
+      </view>
+       </navigator>
+      <view class='clear'></view>
+  </view>
+	</block>
+	
+</view>
+</view>
+ 
+<!--搜索-->
+<view hidden="{{currentTab!==1}}">
+  <view class='list'>
+  <block wx:for='{{dataList2}}' wx:key='list' wx:for-item="item">
+  <view class="list_item" >
+      <navigator url='{{item.id}}'>
+      <view class='img'>
+        <image src="{{imghref}}{{item.goods_img}}"  mode="scaleToFill"/>
+      </view>
+      <view class='info'>
+        <view class='title'>{{item.goods_title}}</view>
+        <view class='price'>{{item.goods_price}}</view>
+      </view>
+       </navigator>
+      <view class='clear'></view>
+  </view>
+	</block>
+	
+</view>
+</view>
+ 
+<!--我-->
+<view hidden="{{currentTab!==2}}">
+  <view class='list'>
+  <block wx:for='{{dataList3}}' wx:key='list' wx:for-item="item">
+  <view class="list_item">
+      <navigator url='{{item.id}}'>
+      <view class='img'>
+        <image src="{{imghref}}{{item.goods_img}}"  mode="scaleToFill"/>
+      </view>
+      <view class='info'>
+        <view class='title'>{{item.goods_title}}</view>
+        <view class='price'>{{item.goods_price}}</view>
+      </view>
+       </navigator>
+      <view class='clear'></view>
+  </view>
+	</block>
+	
+</view>
+</view>
+
+<view hidden="{{currentTab!==3}}">
+  <view class='list'>
+  <block wx:for='{{dataList4}}' wx:key='list' wx:for-item="item">
+  <view class="list_item">
+      <navigator url='{{item.id}}'>
+      <view class='img'>
+        <image src="{{imghref}}{{item.goods_img}}"  mode="scaleToFill"/>
+      </view>
+      <view class='info'>
+        <view class='title'>{{item.goods_title}}</view>
+        <view class='price'>{{item.goods_price}}</view>
+      </view>
+       </navigator>
+      <view class='clear'></view>
+  </view>
+	</block>
+	
+</view>
+</view>

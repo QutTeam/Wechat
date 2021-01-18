@@ -1,0 +1,11 @@
+/* pages/zixun/on2.wxss */
+/* pages/zixun/on1.wxss */
+.c1{
+  font-size:50rpx ;
+  font-weight :100rpx;
+}
+.c2{
+ 
+ height:30px;
+ width:500px;
+}

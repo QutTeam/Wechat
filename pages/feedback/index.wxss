@@ -1,0 +1,18 @@
+/* pages/feedback/index.wxss */
+.shouduan{
+
+  font-size: 60rpx;
+  font-weight: bold;
+}
+.shijian{
+  font-weight: 100;
+}
+.yonghuxieyi{
+  width:90%;padding: 0% 10% 5% 5%
+}
+.jiacu{
+  font-weight: bold;
+}
+.xiahuaxian{
+  text-decoration:underline;
+}

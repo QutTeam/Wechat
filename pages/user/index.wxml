@@ -1,0 +1,52 @@
+<view class="user_info_wrap">
+	<view wx:if="{{userinfo.avatarUrl}}" class="user_img_wrap">
+		<image class="user_bg" src="{{userinfo.avatarUrl}}"></image>
+		<view class="user_info">
+			<image class="user_icon" src="{{userinfo.avatarUrl}}"></image>
+			<view class="user_name">{{userinfo.nickName}}大帅比</view>
+		</view>
+	</view>
+	<view wx:else class="user_btn">
+		<button type="primary" plain open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">登录</button>
+	</view>
+</view>
+<view class="user_content">
+	<view class="user_main">
+		<!-- 历史足迹 -->
+		<view class="history_wrap">
+			<navigator url="/pages/tianxiechengji/index">
+				<image class="his_images" open-type='navigate' src="/images/chengji.png"></image>
+				<view class="his_name">我的成绩</view>
+			</navigator>
+			<navigator url="/pages/tianxiechengji/index">
+				<image class="his_images" open-type='navigate' src="/images/zhiyuanbiao.png"></image>
+				<view class="his_name">我的志愿表</view>
+			</navigator>
+			<navigator>
+				<image class="his_images" src="/images/icon_A.png"></image>
+				<view class="his_name">我的测评</view>
+			</navigator>
+		</view>
+
+		<!-- 我的消息 -->
+		<view class="app_info_wrap">
+      <navigator url="/pages/feedback/index" class="app_info_item"><image src="/images/dingdan-.png" mode="widthFix"></image><text>我的订单</text><text></text></navigator>
+			<navigator url="/pages/feedback/index" class="app_info_item"><image src="/images/xiaoxi.png" mode="widthFix"></image><text>我的消息</text><text></text></navigator>
+		</view>
+		<!-- 应用信息相关 -->
+		<view class="app_info_wrap">
+			<navigator url="/pages/feedback/index" class="app_info_item"><image src="/images/bangzhu.png" mode="widthFix"></image><text>意见与反馈</text><text></text></navigator>
+			<navigator url="/pages/feedback/index" class="app_info_item"><image src="/images/tuandui.png" mode="widthFix"></image><text>研究团队</text><text></text></navigator>
+			<navigator url="/pages/feedback/index" class="app_info_item"><image src="/images/guanyu.png" mode="widthFix"></image><text>关于我们</text><text></text></navigator>
+			<navigator url="/pages/feedback/index" class="app_info_item"><image src="/images/yonghuxieyi.png" mode="widthFix"></image><text>用户协议</text><text></text></navigator>
+		</view>
+
+		<!-- 推荐以及底层模块 -->
+		<view class='IndexBtn'>
+			<button class='btn' open-type="contact">咨询在线客服</button>
+		</view>
+		<view class='footer'>
+			@2017 夜莺有限公司 版权所有
+		</view>
+	</view>
+</view>
