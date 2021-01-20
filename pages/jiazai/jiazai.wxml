@@ -1,0 +1,22 @@
+<view class="container">
+     <view class="remind-box" wx:if="{{remind}}">
+        <image class="remind -img" src="../../images/loading.gif"></image>
+     </view>
+     <block wx:else>
+        <text class="big_title_text">志愿填报
+        together</text>
+     <view class="content">
+        <view class="hd" style="transform:rotazeZ({{angle}}deg);">
+           <image class="logo" src="../../images/logo.png"></image>
+           <image class="wave" mode="aspectFill" src="../../images/wave.png"></image>
+           <image class="wave wave-bg" mode="aspectFill" src="../../images/wave.png"></image><!-- mode为自适应 -->
+        </view>
+        <view class="bd">
+            <button bindgetuserinfo="onGotUserInfo" class="confirm-btn" lang="zh_CN" open-type="getUserInfo">
+            <text>立即体验</text>
+            </button>
+            <text class="copyright">引鹿高考志愿填报</text>
+        </view>
+     </view>
+     </block>
+</view>

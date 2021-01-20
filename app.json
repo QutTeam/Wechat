@@ -13,9 +13,10 @@
     "pages/login/index",
     "pages/auth/index",
     "pages/pay/index",
-   "pages/new_index/index",
-   "pages/scanf-grade/index",
-   "pages/tianxiechengji/index"
+    "pages/new_index/index",
+    "pages/scanf-grade/index",
+    "pages/tianxiechengji/index",
+    "pages/jiazai/jiazai"
   ],
   "tabBar": {
     "color": "#999",
@@ -27,23 +28,22 @@
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "images/shouye.png",
-        "selectedIconPath": "images/shouye2.png"
+        "iconPath": "/images/shouye.png",
+        "selectedIconPath": "/images/shouye2.png"
       },
       {
         "pagePath": "pages/categorys/index",
         "text": "资讯",
-        "iconPath": "images/zixun.png",
-        "selectedIconPath": "images/zixun2.png"
+        "iconPath": "/images/zixun.png",
+        "selectedIconPath": "/images/zixun2.png"
       },
       {
         "pagePath": "pages/user/index",
         "text": "我的",
-        "iconPath": "images/wodedangxuan.png",
-        "selectedIconPath": "images/wodedangxuan2.png"
+        "iconPath": "/images/wodedangxuan.png",
+        "selectedIconPath": "/images/wodedangxuan2.png"
       }
     ]
   },
   "sitemapLocation": "sitemap.json"
- 
 }
