@@ -1,9 +1,13 @@
 <view class='page_row' bindtap="suo">
+
     <view class="search">
+    <navigator  url="/pages/search_page/categorys" open-type="navigate">
+      
       <view class="df search_arr">
         <icon class="searchcion" size='16' type='search'></icon>
         <input class="sousuo" disabled placeholder="搜索" bindtap='search'/>
       </view>
+      </navigator>
     </view>
 	</view>
 	

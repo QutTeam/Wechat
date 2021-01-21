@@ -1,0 +1,38 @@
+<!--pages/mydingdan/mydingdan.wxml-->
+
+<view class="order_main">
+  <!-- <view wx:for={{orders}}
+  wx:key="order_id"
+  class="order_item">  -->
+
+  <view class="order_no_row">
+     <view >订单编号</view>
+     <!--<view class="order_no_value">{{item.order_number}}</view>-->
+     <view >HERFR202112211427126546</view>
+  </view>
+<view class="order_price_row">
+  <view>订单价格</view>
+     <!--<view class="order_price_value">￥{{item.order_price}}</view> -->
+     <view class="order_price_value">￥22133</view>
+  </view>
+  <view class="order_time_row">
+    <view >订单时间</view>
+     <view>2021.12.22</view>
+  </view>
+<view class="link-top"></view>
+  <view class="order_no_row">
+     <view >订单编号</view>
+     <!--<view class="order_no_value">{{item.order_number}}</view>-->
+     <view >HERFR202112211427126546</view>
+  </view>
+<view class="order_price_row">
+  <view>订单价格</view>
+     <!--<view class="order_price_value">￥{{item.order_price}}</view> -->
+     <view class="order_price_value">￥22133</view>
+  </view>
+  <view class="order_time_row">
+    <view >订单时间</view>
+     <view>2021.12.22</view>
+  </view>
+
+</view>

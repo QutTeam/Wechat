@@ -8,7 +8,7 @@
   font-weight: 100;
 }
 .yonghuxieyi{
-  width:90%;padding: 0% 10% 5% 5%
+  width:90%;padding: 0% 10% 5% 5%;
 }
 .jiacu{
   font-weight: bold;

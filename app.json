@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/categorys/index",
+    "pages/search_page/categorys",
     "pages/goods_list/index",
     "pages/goods_detail/index",
     "pages/cart/index",
@@ -13,9 +14,10 @@
     "pages/login/index",
     "pages/auth/index",
     "pages/pay/index",
-   "pages/new_index/index",
-   "pages/scanf-grade/index",
-   "pages/tianxiechengji/index"
+    "pages/new_index/index",
+    "pages/scanf-grade/index",
+    "pages/tianxiechengji/index",
+    "pages/my_order/mydingdan"
   ],
   "tabBar": {
     "color": "#999",
@@ -45,5 +47,4 @@
     ]
   },
   "sitemapLocation": "sitemap.json"
- 
 }
