@@ -1,0 +1,21 @@
+<view class="gaokao">模拟高考志愿填报</view>
+<view class="dierhang">输入成绩信息，为您精准推荐</view>
+<view class="dierdalan"><image class="xingxing" src="/images/star.png"></image>高考省份<input class="input" name="userName" placeholder="山东" indinput="user NameInput"/></view>
+<view class="xiaohuangzi">高考地区已经确认不可修改</view>   
+<view class="tongyong"><image class="xingxing" src="/images/star.png"></image>招生类别 
+<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      {{array[index]}}
+    </view>
+  </picker></view>
+<view class="tongyong"><image class="xingxing" src="/images/star.png"></image>科目类别
+<picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumchange="bindMultiPickerColumnChange" value="{{muttiIndex}}" range="{{multiArray}}"> 
+ <view class="picker">
+ {{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}，{{multiArray[2][multiIndex[2]]}}
+ </view>
+</picker>
+</view>
+<view class="tongyong"><image class="xingxing" src="/images/star.png"></image>高考总分<input class="input" name="userName" placeholder="650" bindinput="chengji"/></view>
+<view class="tongyong"><image class="xingxing" src="/images/star.png"></image>全省排名<input class="input" name="userName" placeholder="3500" bindinput="paiming"/></view>
+<view class="dibuxiaozi">依据历年数据进行推荐，最新招生计划将在每年6月更新</view>
+<view class="changqueding" id="buttonContainer"><button type="primary" class="daqueding">确定</button></view>

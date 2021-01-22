@@ -1,0 +1,5 @@
+<view class="page-body">
+  <view class="btn-area" id="buttonContainer"> 
+    <button type="default" plain="true" class="mini-btn" bindtap='onTapDayWeather'>请输入成绩</button>   
+ </view>
+ </view>

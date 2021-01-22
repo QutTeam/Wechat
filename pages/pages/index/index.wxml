@@ -1,0 +1,67 @@
+<!-- <view wx:if="{{userinfo.avatarUrl}}">
+<view class="page-body">
+  <view class="btn-area" >
+<text class="grade">{{userinfo.grade}}分</text>
+<text class="g1">排名{{userinfo.nickName}}名</text>
+<button type="default" disabled="true" plain="true" class="b">查看推荐院校</button>
+</view> 
+</view>
+</view> -->
+
+<view class="page-body">
+	<view class="btn-area">
+		<navigator class="qingshuruchengji" url="/pages/tianxiechengji/index">请输入成绩</navigator>
+	</view>
+</view>
+<view class="user_content">
+	<view class="user_main">
+		<view class="history_wrap">
+			<navigator>
+				<image class="his_images" src="/images/xuexiao.png"></image>
+				<view class="his_name">院校大全</view>
+			</navigator>
+			<navigator url="/pages/collect/index">
+				<image class="his_images" src="/images/zhuanyezhiyetongs.png"></image>
+				<view class="his_name">专业大全</view>
+			</navigator>
+			<navigator>
+				<image class="his_images" src="/images/gaishuai.png"></image>
+				<view class="his_name">智能测概率</view>
+			</navigator>
+			<navigator>
+				<image class="his_images" src="/images/liaotian.png"></image>
+				<view class="his_name">专家咨询</view>
+			</navigator>
+		</view>
+	</view>
+	<view class="daoshudierdahang">
+		<view class="diyikuai">
+			<view class="zhinengtianzhiyuan">
+				<navigator>
+					<image class="sanzhangtupian" src="/images/zhinengtianbaozhiyuan.png"></image>
+					<view class="shaoweidadian">智能填志愿</view>
+					<view class="huisexiaozi">智能辅助填志愿</view>
+				</navigator>
+			</view>
+			<view class="zhinengtianzhiyuan">
+				<navigator url="/pages/collect/index">
+					<image class="sanzhangtupian" src="/images/paihangbang.png"></image>
+					<view class="shaoweidadian">大学排行榜</view>
+					<view class="huisexiaozi">多维度评析院校</view>
+				</navigator>
+			</view>
+			<view class="zhinengtianzhiyuan">
+				<navigator>
+					<image class="sanzhangtupian" src="/images/ziwopingce.png"></image>
+					<view class="shaoweidadian">自我测评</view>
+					<view class="huisexiaozi">清晰了解自己</view>
+				</navigator>
+			</view>
+		</view>
+	</view>
+	<view class="zhaopianweizhi">
+		<view class="zhaopianjuzhong">
+				<image class="zhaopian" src="/images/gaokaozhiyuanzhidao.png"></image>
+		</view>
+	</view>
+</view>
