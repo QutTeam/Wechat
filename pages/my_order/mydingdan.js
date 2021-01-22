@@ -1,4 +1,4 @@
-// pages/categorys.js
+// pages/mydingdan/mydingdan.js
 Page({
 
   /**
@@ -24,11 +24,26 @@ Page({
 
   /**
    * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+   
+  onShow(options) {
+    const token= wx.getStorageSync("token");
+   // if(!token){
+      //wx.navigateTo({
+       // url:'/pages/auth/index'
+        //get shouquan
+     // })
+  //  }
+     let pages=getCurrentPages();
+     this.getOrders();
   },
+  /*
+  async getOrders(){
+    
+  const res=await request({url:"..."});
+  this.setDate({
 
+  })
+  },
   /**
    * 生命周期函数--监听页面隐藏
    */

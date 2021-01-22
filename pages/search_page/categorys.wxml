@@ -1,0 +1,22 @@
+<!--pages/categorys.wxml-->
+<view class="search_row">
+  <input placeholder="请输入您要搜索的文章" bindinput="handleInput"></input>
+  <button class="mini-btn" type="default" size="mini">取消</button>
+
+</view>
+<view class="search_content">
+<view class="search_item">
+Llllllllllllll
+</view>
+<view class="search_item">
+Llllllllllllll
+</view>
+
+<!--
+<<navigator class="search_item"
+wx:for="{{goods}}"
+wx:key="goods_id"
+> {{}}
+</navigator>
+  -->
+</view>
