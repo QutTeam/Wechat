@@ -1,0 +1,33 @@
+/* pages/my_order/mydingdan.wxss */
+.order_item{
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+  color:#666;
+}
+.order_no_row{
+  display:flex;
+  justify-content: space-between;
+}
+.order_price_row{
+ display:flex;
+ padding:10rpx 0;
+ justify-content: space-between;
+}
+ .order_price_value{
+    color:red;
+    font-size:32rpx;
+ }
+
+.order_time_row{
+ display:flex;
+ padding:10rpx 0;
+ justify-content: space-between;
+
+
+}
+.link-top {
+  width: 100%;
+  height: 1px;
+  padding:10rpx;
+  border-top: solid #666 1px;
+}

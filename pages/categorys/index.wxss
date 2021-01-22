@@ -12,6 +12,7 @@
   height: 60rpx;
   border-radius: 5px;
 }
+
 .sousuo {
   padding-left: 38%;
   width: 15%;
