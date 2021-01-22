@@ -1,0 +1,19 @@
+Page{
+  background-image:url(https://i0.hdslb.com/bfs/album/66f9061869b93b44ab2bdb9ec4d8fe97c8cb63aa.png@518w_1e_1c.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+button{
+  margin-top: 30rpx;
+ 
+  margin-bottom: 30rpx;
+}
+.button-sp-area{
+  margin: 0 auto;
+  width: 60%;
+}
+.mini-btn{
+  margin-left: 240rpx;
+  margin-top: 200rpx;
+  width: 280rpx;
+}

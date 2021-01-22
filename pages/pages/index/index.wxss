@@ -1,0 +1,133 @@
+Page{
+  background-image:url(https://s1.ax1x.com/2020/11/02/BDqFbj.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+button{
+  margin-top: 30rpx;
+  font-size: 35rpx;
+  margin-bottom: 30rpx;
+}
+.button-sp-area{
+  margin: 0 auto;
+  width: 60%;
+}
+.qingshuruchengji{
+  margin-left: 260rpx;
+  margin-top: 180rpx;
+  width: 280rpx;
+  font-size: 50rpx;
+}
+.grade{
+ 
+  position: absolute;
+  left:100px;
+  bottom:900rpx;
+  color:#747474;
+  margin-left:70px;
+  font-size:30px;
+  font-weight: 20rpx;
+}
+.g1{
+  position: absolute;
+  left:100px;
+  bottom:860rpx;
+  color:#747474;
+  margin-left:78px;
+  font-size:12px;
+  font-weight: 20rpx;
+}
+.b{
+  position: absolute;
+  left:195rpx;
+  bottom:750rpx;
+  color:#747474;
+  margin-left:90rpx;
+  font-size:27rpx;
+  font-weight: 20rpx;
+
+}
+/* 从这开始 */
+.user_content{
+  position: relative;
+}
+.user_content .user_main {
+  padding-bottom: 10rpx;
+  color: #666;
+  border-bottom:5rpx #F7F7F7 solid;
+  position: absolute;
+  width: 100%;
+  /* left: 0%; */
+  /* transform: translateX(-50%); */
+  top: 200rpx;
+}
+.user_content .user_main .history_wrap {
+  background-color: #fff;
+  font-size: 40rpx;
+  display: flex;
+}
+.user_content .user_main .history_wrap navigator {
+  flex: 1;
+  text-align: center;
+  padding: 10rpx ;
+}
+.his_images{
+  width: 50rpx;
+  height: 50rpx;
+}
+.his_name{
+  font-size: 30rpx;
+}
+.daoshudierdahang{
+  padding-bottom: 10rpx;
+  color: #666;
+  border-bottom:5rpx #F7F7F7 solid;
+  position: absolute;
+  width: 100%;
+  /* left: 0%; */
+  /* transform: translateX(-50%); */
+  top: 375rpx;
+  display: flex;
+  
+}
+.diyikuai{
+  display: flex;
+  flex-grow:1 ;
+}
+.zhinengtianzhiyuan{
+  border-color: #666;
+  border-style:solid ;
+  margin: 25rpx;
+  flex: 1;
+  text-align: center;
+  padding: 10rpx ;
+}
+.shaoweidadian{
+  font-size: 30rpx;
+}
+.sanzhangtupian{
+  width: 70rpx;
+  height: 70rpx;
+  padding: 10rpx;
+}
+.huisexiaozi{
+  color: #747474;
+  padding: 5rpx;
+  font-size: 20rpx;
+}
+.zhaopianweizhi{
+  position: absolute;
+  width: 100%;
+  /* left: 0%; */
+  /* transform: translateX(-50%); */
+  top: 650rpx;
+}
+.zhaopianjuzhong{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.zhaopian{
+ height: 230rpx;
+  width: 100%;
+}

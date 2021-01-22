@@ -1,0 +1,184 @@
+page {
+  background-color: #edece8;
+}
+.user_info_wrap {
+  height: 45vh;
+  overflow: hidden;
+  background-color: var(--themeColor);
+  position: relative;
+}
+.user_info_wrap .user_img_wrap {
+  position: relative;
+}
+.user_info_wrap .user_img_wrap .user_bg {
+  height: 50vh;
+  width:100%;
+  /* 高斯模糊！！！！！！！！！！！！！！挺妙的 */
+  filter: blur(10rpx);
+}
+.user_info_wrap .user_img_wrap .user_info {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  text-align: center;
+}
+.user_info_wrap .user_img_wrap .user_info .user_icon {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_info_wrap .user_img_wrap .user_info .user_name {
+  color: #fff;
+  margin-top: 40rpx;
+  font-size:40rpx;
+}
+.user_info_wrap .user_btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+  border: 1rpx solid greenyellow;
+  color: greenyellow;
+  font-size: 38rpx;
+  padding: 30rpx;
+  border-radius: 10rpx;
+}
+/* 中间的地方 */
+.user_content {
+  position: relative;
+}
+.user_content .user_main {
+  padding-bottom: 100rpx;
+  color: #666;
+  border-bottom:5rpx #F7F7F7 solid;
+  position: absolute;
+  width: 100%;
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  top: -40rpx;
+}
+.user_content .user_main .history_wrap {
+  background-color: #fff;
+  font-size: 40rpx;
+  display: flex;
+}
+.user_content .user_main .history_wrap navigator {
+  flex: 1;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.user_content .user_main .history_wrap navigator .his_num {
+  color: var(--themeColor);
+}
+.user_content .user_main .history_wrap navigator .his_name {
+  font-size: 30rpx;
+}
+/* 图片在这里 */
+.user_content .user_main .history_wrap navigator .his_images {
+  width:50rpx;
+  height: 50rpx;
+}
+.user_content .user_main .orders_wrap {
+  background-color: #fff;
+  /* 订单处字体*/
+  font-size: 40rpx;
+  margin-top: 30rpx;
+}
+.user_content .user_main .orders_wrap .orders_title {
+  font-size:35rpx;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.user_content .user_main .orders_wrap .order_content {
+  font-size:30rpx;
+  display: flex;
+}
+.user_content .user_main .orders_wrap .order_content navigator {
+  padding: 15rpx 0;
+  flex: 1;
+  text-align: center;
+}
+.user_content .user_main .orders_wrap .order_content navigator .iconfont {
+  color: var(--themeColor);
+  font-size: 40rpx;
+}
+
+/* 应用信息 */
+.user_content .user_main .app_info_wrap {
+  margin-top: 30rpx;
+  background-color: #fff;
+  /* justify-content: space-between; */
+
+}
+.user_content .user_main .app_info_wrap .app_info_item {
+  padding: 20rpx ;
+  border-bottom: 1rpx solid #ccc;
+  /* justify-content: space-between; */
+  display: flex;
+  font-size: 35rpx;
+  font-family: simhei;
+}
+.user_content .user_main .app_info_wrap .app_info_item image{
+  width: 8%;
+  float: left;
+  margin-top: 0rpx;
+  margin-right: 10rpx;
+}
+
+/* .user_content .user_main .app_info_wrap .app_info_item .wenzi{
+
+} */
+
+.user_content .user_main .app_info_wrap .app_info_contact {
+  display: flex;
+  justify-content: space-between;
+}
+.user_content .user_main .recommend_wrap {
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding: 20rpx ;
+  justify-content: space-between;
+
+}
+/*联系我们-详情*/
+
+.IndexBtn{width:80%;padding:0 10% 5% 10%}
+button{
+  margin-top: 50rpx;
+  border-radius:50px;
+border:2rpx #ccc solid;
+font-size:20px;
+}
+button::after{
+  border:none;
+}
+
+
+
+/*页面底部版权样式*/
+.footer{
+  font-size:10pt;color:#CACACA;width:100%;text-align:center
+}
+
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

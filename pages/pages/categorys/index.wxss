@@ -1,0 +1,129 @@
+
+.search{
+  width: 98%;
+}
+.search_arr {
+  border: 1px solid #d0d0d0;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+}
+.search_arr input{
+  margin-left: 60rpx;
+  height: 60rpx;
+  border-radius: 5px;
+}
+.sousuo {
+  padding-left: 38%;
+  width: 15%;
+  line-height: 150%;
+  text-align: center;
+}
+.page_row{
+  display: flex;
+  flex-direction: row
+}
+.searchcion {
+  margin: 10rpx 10rpx 10rpx 10rpx;
+  position: absolute;
+  margin-left:38%;
+  z-index: 2;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+    }
+  
+    
+    page{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    .navbar{
+      flex: none;
+      display: flex;
+      background: #fff;
+    }
+    .navbar .item{
+      position: relative;
+      flex: auto;
+      text-align: center;
+      line-height: 80rpx;
+    }
+    .navbar .item.active{
+      color: hsl(0, 100%, 50%);
+    }
+    .navbar .item.active:after{
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 4rpx;
+      background: red;
+    }
+    .clear{
+      clear: both;
+      overflow: hidden;
+    }
+    navigator{
+      display:inline;
+    }
+    .list{
+      margin-top:10px;
+    }
+     
+    .list .list_item{
+      margin-top:10px;
+      padding:10px;
+      height:100px;
+      border-bottom:1px solid #E8E8E8;
+    }
+    .list .list_item .img{
+      float:left;
+      width:40%;
+      height:100%;
+    }
+    .list .list_item .img image{
+       width:100%;
+       height:100%;
+    }
+     
+    .list .list_item .info{
+      width:59%;
+      float:right;
+      height:100px;
+      position:relative;
+    }
+    .list .list_item .info .title{
+      color:#333;
+      margin-left:10px;
+      font-size: 15px;
+    }
+
+    .price{
+      position: absolute;
+      left:90px;
+      bottom:10px;
+      color:#747474;
+      margin-left:10px;
+      font-size:10px;
+     }
+     
+    .list .list_item .info .price{
+      color:#333;
+      margin-left:10px;
+      margin-top:10px;
+      font-size:15px;
+    }
+     
+    .list .list_item .info .num {
+      position: absolute;
+      left:0px;
+      bottom:10px;
+      color:#747474;
+      margin-left:10px;
+      font-size:15px;
+    }
+ 
+    
